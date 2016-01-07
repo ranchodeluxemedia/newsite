@@ -2,13 +2,14 @@ adapter: sftp
 host: ranchodeluxemedia.com
 username: deploy
 password: "@31169Ccc!!!"
-path: /var/www/html
+path: var/www/html
 port: 2244
 local_path: html
 
 exclude:
     - .gitignore
     - .yeopress
+    - dandelion.yml
     - production.yml
     - staging.yml
     - .csscomb.json
@@ -19,5 +20,5 @@ exclude:
     - .jshintrc
     - editorconfig
     - src/
-additional:
+
     
