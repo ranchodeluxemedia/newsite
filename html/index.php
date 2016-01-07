@@ -21,7 +21,7 @@
             <h1>Rancho Deluxe Media</h1>
             <strong>We're in maintenance mode, folks...</strong>
         </div>
-        
+        <?php prefix_instagram(); ?>
     </div>
 	<script src="assets/js/vendor/jquery.js"></script>
 	<script src="assets/js/app.min.js"></script>
