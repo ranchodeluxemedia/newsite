@@ -21,6 +21,7 @@
             <h1>Rancho Deluxe Media</h1>
             <strong>We're in maintenance mode, folks...</strong>
         </div>
+        
     </div>
 	<script src="assets/js/vendor/jquery.js"></script>
 	<script src="assets/js/app.min.js"></script>
