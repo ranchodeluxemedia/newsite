@@ -1,0 +1,147 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "491012eafaf6f5d09fcd42cbaca5f95b",
+    "content-hash": "a0a2cbfa89ed73b8d38dda2a8e899f41",
+    "packages": [
+        {
+            "name": "abraham/twitteroauth",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/abraham/twitteroauth.git",
+                "reference": "adf6a8ee92b0bac69cae7dded9743d5a7de0057e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abraham/twitteroauth/zipball/adf6a8ee92b0bac69cae7dded9743d5a7de0057e",
+                "reference": "adf6a8ee92b0bac69cae7dded9743d5a7de0057e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Abraham\\TwitterOAuth\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Abraham Williams",
+                    "email": "abraham@abrah.am",
+                    "homepage": "https://abrah.am",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The first PHP Library to support OAuth 1.0A for Twitter's REST API.",
+            "homepage": "https://github.com/abraham/twitteroauth",
+            "keywords": [
+                "api",
+                "oauth",
+                "twitter"
+            ],
+            "time": "2014-11-18 00:05:59"
+        },
+        {
+            "name": "andreyco/instagram",
+            "version": "v3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Andreyco/Instagram-for-PHP.git",
+                "reference": "726e724c51301410873d9bae9c659a0597ca47e4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Andreyco/Instagram-for-PHP/zipball/726e724c51301410873d9bae9c659a0597ca47e4",
+                "reference": "726e724c51301410873d9bae9c659a0597ca47e4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Andreyco\\Instagram\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Andrej Badin",
+                    "email": "contact@andrejbadin.com",
+                    "homepage": "http://andrejbadin.com"
+                }
+            ],
+            "description": "An easy-to-use PHP Class for accessing Instagram's API.",
+            "homepage": "https://github.com/Andreyco/Instagram",
+            "keywords": [
+                "api",
+                "instagram"
+            ],
+            "time": "2014-07-14 19:53:19"
+        },
+        {
+            "name": "drewm/mailchimp-api",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drewm/mailchimp-api.git",
+                "reference": "707d555962442b21a75683a56bdb7cebd0a19f72"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/707d555962442b21a75683a56bdb7cebd0a19f72",
+                "reference": "707d555962442b21a75683a56bdb7cebd0a19f72",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Drewm": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drew McLellan",
+                    "homepage": "http://allinthehead.com/"
+                }
+            ],
+            "description": "Super-simple, minimum abstraction MailChimp API v2 wrapper",
+            "homepage": "https://github.com/drewm/mailchimp-api",
+            "time": "2015-07-07 15:38:25"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
